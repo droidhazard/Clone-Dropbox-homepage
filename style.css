@@ -15,18 +15,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  font-family: "Roboto", sans-serif;
+  /* border: 1px solid red; */
 }
 
 body {
   background-color: black;
-  font-family: Roboto, sans-serif;
 }
 
 /* NAVBAR */
 .navbar {
   background-color: white;
-  height: 45px;
+  height: 47px;
   display: flex;
   flex-direction: row;
 }
@@ -39,8 +39,8 @@ body {
 .navbar .logo-img {
   color: white;
   background-color: var(--cyan-blue);
-  height: 45px;
-  width: 45px;
+  height: 47px;
+  width: 47px;
   font-size: 28px;
   display: flex;
   justify-content: center;
@@ -53,5 +53,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 10px;
+  padding: 0 10px;
+}
+.navbar .nav-button {
+  border: none;
+  background-color: white;
+  padding: 0 15px;
+}
+.navbar .nav-button a {
+  font-family: Roboto;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+}
+.navbar .nav-button:hover {
+  background-color: #ebebeb;
 }
