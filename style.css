@@ -170,6 +170,13 @@ body {
   margin-top: 80px;
   font-size: 2rem;
 }
+.hero-section .hero-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+}
 
 
 @media (max-width: 768px) {
