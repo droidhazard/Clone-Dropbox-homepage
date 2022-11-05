@@ -31,7 +31,7 @@ button a {
 }
 
 body {
-  background-color: black;
+  background-color: white;
   font-size: 17px;
 }
 
@@ -170,12 +170,35 @@ body {
   margin-top: 80px;
   font-size: 2rem;
 }
+
 .hero-section .hero-boxes {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   color: white;
+  margin-top: 80px;
+}
+
+.hero-section .hero-boxes section {
+  margin-left: 30px;
+}
+
+.hero-section .hero-boxes h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero-section .hero-boxes img {
+  height: 48px;
+  width: 48px;
+  margin-bottom: 30px;
+}
+
+.hero-section .hero-boxes p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 
