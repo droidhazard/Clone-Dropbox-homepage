@@ -26,6 +26,10 @@
   /* border: 1px solid red; */
 }
 
+button a {
+  text-decoration: none;
+}
+
 body {
   background-color: black;
   font-size: 17px;
@@ -119,12 +123,54 @@ body {
   padding: 70px;
 }
 
-.hero-section .hero-heading, .hero-heading-mobile {
+.hero-section .hero-heading,
+.hero-heading-mobile {
   color: white;
   font-family: "Sharp Grotesk";
   text-align: center;
   font-size: 2.5rem;
 }
+
+.hero-section .sub-heading {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.btn-plan {
+  border: none;
+  background-color: #498fff;
+  padding: 22px;
+}
+
+.btn-plan a {
+  color: #181515;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-plan i {
+  margin-left: 20px;
+}
+
+.btn-plan:hover {
+  background-color: #78acff;
+  ;
+}
+
+.hero-section .hero-image {
+  margin-top: 70px;
+  width: 572px;
+  height: 411px;
+  scale: 1.1;
+}
+
+.hero-heading:nth-of-type(3) {
+  margin-top: 80px;
+  font-size: 2rem;
+}
+
 
 @media (max-width: 768px) {
   .navbar {
@@ -143,6 +189,7 @@ body {
     display: block;
     font-size: 35px;
   }
+
   .hero-section {
     padding: 200px 10px;
   }
